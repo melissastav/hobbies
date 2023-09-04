@@ -1,3 +1,3 @@
 # portfolio
 
-my hobbies are swimming, cycling, chess and gaming
+my hobbies are swimming, cycling and chess.
