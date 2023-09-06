@@ -1,9 +1,13 @@
 .header_main {
-    background-color: rgb(151, 252, 138);
-    font-size: 30px;
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 100px;
     font-weight: 700;
-    padding: 22px;
-    border-radius: 10px;
     text-align: center;
+    font-family: monospace;
+    background-color: rgb(247, 128, 148);
+}
 
+#image {
+    width: 100px;
+    height: 100px;
 }
