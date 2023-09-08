@@ -1,13 +1,18 @@
-.header_main {
-    color: rgba(255, 255, 255, 0.575);
-    font-size: 100px;
-    font-weight: 700;
-    text-align: center;
-    font-family: monospace;
-    background-color: rgb(247, 128, 148);
+.body{
+background-color: #000000;
 }
 
-#image {
-    width: 100px;
-    height: 100px;
+
+.header_main {
+    text-align: left;
+    padding-left: 30px; 
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: rgb(204, 204, 204);
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+
 }
+
+
