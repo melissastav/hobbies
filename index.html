@@ -18,7 +18,7 @@
     <li class="text-center flex-1">
       <a class="text-center block border py-2 px-4" style="color: black; font-family: monospace; font-size: 15px; font-weight: normal; background-color: rgb(204, 204, 204); transition: background-color 0.3s;" href="index.html" onmouseover="this.style.backgroundColor='#FF69B4';" onmouseout="this.style.backgroundColor='rgb(204, 204, 204)';">HOME</a>
   </li>
-  
+
       <li class="text-center flex-1">
         <a class="text-center block border py-2 px-4" style="color: black; font-family: monospace; font-size: 15px; font-weight: normal; background-color: rgb(204, 204, 204); transition: background-color 0.3s;" href="hobby.html" onmouseover="this.style.backgroundColor='#FF69B4';" onmouseout="this.style.backgroundColor='rgb(204, 204, 204)';">SWIMMING</a>
     </li>
@@ -26,32 +26,23 @@
           <a class="text-center block border py-2 px-4" style="color: black; font-family: monospace; font-size: 15px; font-weight: normal; background-color: rgb(204, 204, 204); transition: background-color 0.3s;" href="hobby2.html" onmouseover="this.style.backgroundColor='#FF69B4';" onmouseout="this.style.backgroundColor='rgb(204, 204, 204)';">CHESS</a>
       </li>
         <li class="text-center flex-1">
-          <a class="text-center block border py-2 px-4" style="color: black; font-family: monospace; font-size: 15px; font-weight: normal; background-color: rgb(204, 204, 204); transition: background-color 0.3s;" href="hobby3.html" onmouseover="this.style.backgroundColor='#FF69B4';" onmouseout="this.style.backgroundColor='rgb(204, 204, 204)';">MUSIC</a>
+          <a class="text-center block border py-2 px-4" style="color: black; font-family: monospace; font-size: 15px; font-weight: normal; background-color: rgb(204, 204, 204); transition: background-color 0.3s;" href="hobby3.html" onmouseover="this.style.backgroundColor='p#FF69B4';" onmouseout="this.style.backgroundColor='rgb(204, 204, 204)';">MUSIC</a>
       </li>
       </ul>
 </navbar>
-
-<p class="text">Welcome!</p> 
-
-<div class="bg-black min-h-screen flex flex-col items-center">
-    
-    <div class="flex flex-col space-y-4 items-center ml-20">
-
-      <a href="hobby.html" class="relative inline-block group" style="width: 1000px; height: 381.982059px; overflow: hidden; padding: 50px;">
-        <img src="https://images.unsplash.com/photo-1544698203-58ceea4b787b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Swimming Image" class="hover:opacity-30 transition duration-200" style="width: 100%; height: 100%; object-fit: cover;">
-        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-6xl font-bold opacity-0 transition duration-200 group-hover:opacity-100" style="font-family: monospace;">SWIMMING</div>
-    </a>
-
-    <a href="hobby2.html" class="relative inline-block group" style="width: 1000px; height: 381.982059px; overflow: hidden; padding: 50px;">
-        <img src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpZTvydV.png" alt="Chess Image" class="hover:opacity-30 transition duration-200" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
-        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-6xl font-bold opacity-0 transition duration-200 group-hover:opacity-100" style="font-family: monospace;">CHESS</div>
-    </a>
-
-    <a href="hobby3.html" class="relative inline-block group" style="width: 1000px; height: 381.982059px; overflow: hidden; padding: 50px;">
-        <img src="https://i.ytimg.com/vi/UIcVwH47uxQ/maxresdefault.jpg" alt="Chess Image" class="hover:opacity-30 transition duration-200" style="width: 100%; height: 100%; object-fit: cover; object-position: top;">
-        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-6xl font-bold opacity-0 transition duration-200 group-hover:opacity-100" style="font-family: monospace;">MUSIC</div>
-    </a>
+<div class="h-96 text-white text-center grid bg-cover bg-[url('https://images.unsplash.com/photo-1683009427540-c5bd6a32abf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop')]">
+  <div class="col-start-1 row-start-1 bg-gray-800 bg-opacity-70 w-full h-full"></div>
+  <div class="col-start-1 row-start-1 mx-auto my-auto">
+      <h1 class="font-bold text-2xl">Hero Message</h1>
+      <p>Something interesting about hero message</p>
   </div>
   </div>
+  
+  <div class="grid text-center text-black place-content-center min-h-[500px] relative isolate  after:absolute after:z-[-1] after:inset-0 after:bg-pink-700 after:opacity-90 after:bg-[url('https://images.unsplash.com/photo-1604050170221-aed634784f64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1664&q=80')] after:bg-top after:bg-cover ">
+  <h1 class="font-semibold text-4xl tracking-wide">I have overlay</h1>
+  <p class="text-xs text-center leading-tight">Overlay applied using pseudo CSS element. where parent css is position relative and then sudo class is applied as absolute positioned</p>
+  </div>
+
+
 </body>
 </html>
